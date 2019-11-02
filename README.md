@@ -34,5 +34,11 @@
 - Test Accuracy with add: 60.61 % 
 - Test Accuracy with Concatenate: 65.99 % 
 
+## Normal Cell
+
+
+## Reduction Cell
 
 ## We can also apply transpose convoulution for upsampling the image in reduction cell, which might give better result.
+
+
