@@ -1,5 +1,6 @@
 # Normal and Reduction cell implementation for Test task
-- This Repository contains Implementation of the Normal and Reduction cell stacked together on CIFAR10 dataset
+- This Repository contains Implementation of the Normal and Reduction cell stacked together on CIFAR10 dataset 
+- It also contains summary of paper, in a presentation.
 ## Normal Cell Structure
 
 ![NASNet Search Space](https://user-images.githubusercontent.com/8547940/68069556-b1505e00-fd61-11e9-84c7-64eac8d29c2b.png)
