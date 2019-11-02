@@ -4,7 +4,6 @@
 
 ![NASNet Search Space](https://user-images.githubusercontent.com/8547940/68069556-b1505e00-fd61-11e9-84c7-64eac8d29c2b.png)
 
-
 ## Reduction Cell Structure
 
 ![Reduction_cell](https://user-images.githubusercontent.com/8547940/68069559-c3320100-fd61-11e9-8361-5cb28421a1bb.png)
@@ -25,8 +24,6 @@
   -  Normal cell and reduction cell both using concatenate operarion while combining two hidden states.
 -  Training and test Results are shared for both.
 
-
-
 ## Training Details
 
 - Training dataset size is 50000 images.
@@ -36,15 +33,14 @@
 - Training with Concatenate operation to merge the hidden outputs: Concatenating may be more natural if the two inputs aren't very closely related.
   - Train Accuracy with add: 71.91 % .
 
-
 ## Loss and Optimizer
 - Since we have classes so loss used is categorical crossentropy.
 - And RMSprop is used as an optimizer.
 
 ## Evaluate
 - Dataset size is 10000 images
-- Test Accuracy with add: 60.61 % 
-- Test Accuracy with Concatenate: 65.99 % 
+- Test Accuracy with **add: 60.61 %**
+- Test Accuracy with **Concatenate: 65.99 %**
 
 ## We can also apply transpose convoulution for upsampling the image in reduction cell, which might give better result.
 
