@@ -1,6 +1,18 @@
 # Normal and Reduction cell implementation for Test task
-
 - This Repository contains Implementation of the Normal and Reduction cell stacked together on CIFAR10 dataset
+## Normal Cell Structure
+
+![NASNet Search Space](https://user-images.githubusercontent.com/8547940/68069556-b1505e00-fd61-11e9-84c7-64eac8d29c2b.png)
+
+
+## Reduction Cell Structure
+
+![Reduction_cell](https://user-images.githubusercontent.com/8547940/68069559-c3320100-fd61-11e9-8361-5cb28421a1bb.png)
+
+## Network Structure
+
+![Network](https://user-images.githubusercontent.com/8547940/68069578-08eec980-fd62-11e9-8d92-a274b579f807.png)
+
 ## Implementation Details
 - Normal Cell keeps the image size same; so stride for operations on normal cell is (1,1) keeping padding as "same" to maintain the size.
 - Reduction Cell decreases the image size; so stride for operations on reduction cell is (2,2) keeping padding as "same". 
@@ -33,11 +45,6 @@
 - Dataset size is 10000 images
 - Test Accuracy with add: 60.61 % 
 - Test Accuracy with Concatenate: 65.99 % 
-
-## Normal Cell
-
-
-## Reduction Cell
 
 ## We can also apply transpose convoulution for upsampling the image in reduction cell, which might give better result.
 
