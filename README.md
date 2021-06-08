@@ -3,7 +3,7 @@
 - It also contains summary of paper, in a presentation.
 - Normal Cell and Reduction cell has two inputs. For now giving two input same, i.e. previous cell output.
 - I tried stacking normal and reduction cell and also implemented skip connections but network was too slow to train. so for now keeping N = 1. Code is there but I have commented it out. You can have a look at commented code.
-
+ 
 ## Normal Cell Structure
 
 ![normal_cell](https://user-images.githubusercontent.com/8547940/68075981-56455800-fdaf-11e9-9d34-cbb2b43f9311.png)
